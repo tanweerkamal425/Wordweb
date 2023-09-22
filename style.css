@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    width: 100%;
+    background-color: blue;
+    box-shadow: 0 4px 4px rgba(0, 0, 255, 0.3);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    color: white;
+    line-height: 50px;
+}
+
+.container label {
+    color: white;
+}
+
+input[type=text] {
+    width: 50%;
+    background-color: blue;
+    padding: 8px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    color: white;
+    font-size: 24px;
+    /* border-radius: 8px; */
+    /* box-sizing: border-box; */
+}
+
+.container button {
+    /* resets */
+    outline: none;
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    background: none;
+
+    /* new styles */
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.content-container {
+    width: 70%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.error {
+    margin-left: 40px;
+    margin-top: 8px;
+    color: #EA3546;
+}
+
+.content {
+    /* border: 1px solid black; */
+    background-color: white;
+    margin-top: 12px;
+    margin-left: 32px;
+}
+
+.content h2 {
+    color: #306BAC;
+    text-transform: capitalize;
+}
+
+.content p {
+    font-weight: 300;
+    opacity: 0.7;
+}
+
+.content ol {
+    margin-left: 40px
+}
+
+.content ul {
+    margin-left: 54px;
+}
+
+
+.example {
+    color: green;
+    font-style: italic;
+}
+
