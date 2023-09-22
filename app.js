@@ -1,32 +1,3 @@
-// let btn = document.querySelector("button");
-// let inp = document.querySelector("input");
-
-// btn.addEventListener("click", async () => {
-//     console.log("btn clicked");
-//     let word = inp.value;
-//     let res = await getFacts(word);
-//     console.log(res.data[0]);
-//     let dicapi = res.data[0];
-
-//     let div = document.querySelector(".wordweb");
-//     let h2 = document.querySelector("h2");
-//     h2.innerText = dicapi.meanings[0].partOfSpeech + ":" + " " + dicapi.word;
-
-//     let p = document.querySelector("p");
-//     p.innerText = dicapi.phonetic;
-//     console.log(dicapi.meanings[0].definitions[0]);
-
-//     let list = document.querySelector("ol");
-//     list.innerText = "";
-//     let meanings = dicapi.meanings[0].definitions;
-//     for (meaning of meanings) {
-//         let li = document.createElement("li");
-//         li.innerText = meaning.definition;
-//         list.appendChild(li);
-//     }
-
-// });
-
 
 let btn = document.querySelector("button");
 let inp = document.querySelector("input");
