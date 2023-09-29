@@ -78,6 +78,7 @@ btn.addEventListener("click", async (event) => {
         container.innerText = "";
         container.append(h2);
     }
+    inp.select();
 });
 
 
