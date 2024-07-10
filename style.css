@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 24px;
 }
 
 .container p {
@@ -27,6 +28,7 @@
 
 .container label {
     color: white;
+    font-size: 24px;
 }
 
 input[type=text] {
@@ -110,3 +112,24 @@ input[type=text] {
     font-style: italic;
 }
 
+
+@media (max-width: 700px) {
+    .container {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .container p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .container label {
+        font-size: 12px;
+    }
+
+    input[type=text] {
+        font-size: 12px;
+        width: 30%;
+    }
+}
